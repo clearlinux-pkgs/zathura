@@ -1,0 +1,12 @@
+0.4.3
+Sphinx
+appstream-glib
+desktop-file-utils
+librsvg
+libseccomp-dev
+pkgconfig(check)
+pkgconfig(girara-gtk3)
+pkgconfig(libseccomp)
+pkgconfig(sqlite3)
+pkgconfig(synctex)
+sqlite-autoconf-dev
