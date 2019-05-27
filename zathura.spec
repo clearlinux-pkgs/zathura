@@ -4,7 +4,7 @@
 #
 Name     : zathura
 Version  : 0.4.3
-Release  : 2
+Release  : 3
 URL      : https://github.com/pwmt/zathura/archive/0.4.3.tar.gz
 Source0  : https://github.com/pwmt/zathura/archive/0.4.3.tar.gz
 Summary  : Minimalistic document viewer
