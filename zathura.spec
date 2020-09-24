@@ -4,7 +4,7 @@
 #
 Name     : zathura
 Version  : 0.4.6
-Release  : 7
+Release  : 8
 URL      : https://github.com/pwmt/zathura/archive/0.4.6/zathura-0.4.6.tar.gz
 Source0  : https://github.com/pwmt/zathura/archive/0.4.6/zathura-0.4.6.tar.gz
 Summary  : No detailed summary available
