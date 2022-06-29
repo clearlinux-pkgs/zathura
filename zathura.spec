@@ -4,7 +4,7 @@
 #
 Name     : zathura
 Version  : 0.4.9
-Release  : 11
+Release  : 12
 URL      : https://github.com/pwmt/zathura/archive/0.4.9/zathura-0.4.9.tar.gz
 Source0  : https://github.com/pwmt/zathura/archive/0.4.9/zathura-0.4.9.tar.gz
 Summary  : No detailed summary available
@@ -101,13 +101,13 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1644950168
+export SOURCE_DATE_EPOCH=1656521220
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
 export FFLAGS="$FFLAGS -fno-lto "
 export CXXFLAGS="$CXXFLAGS -fno-lto "
-CFLAGS="$CFLAGS" CXXFLAGS="$CXXFLAGS" LDFLAGS="$LDFLAGS" meson --libdir=lib64 --prefix=/usr --buildtype=plain   builddir
+CFLAGS="$CFLAGS" CXXFLAGS="$CXXFLAGS" LDFLAGS="$LDFLAGS" meson --libdir=lib64 --prefix=/usr --buildtype=plain -Dsynctex=disabled  builddir
 ninja -v -C builddir
 
 %check
