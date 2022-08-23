@@ -4,7 +4,7 @@
 #
 Name     : zathura
 Version  : 0.4.9
-Release  : 15
+Release  : 16
 URL      : https://github.com/pwmt/zathura/archive/0.4.9/zathura-0.4.9.tar.gz
 Source0  : https://github.com/pwmt/zathura/archive/0.4.9/zathura-0.4.9.tar.gz
 Summary  : No detailed summary available
