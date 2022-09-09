@@ -1,4 +1,4 @@
-0.4.9
+0.5.1
 bash-completion-dev
 pkgconfig(bash-completion)
 pkgconfig(fish)
