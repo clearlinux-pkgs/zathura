@@ -4,7 +4,7 @@
 #
 Name     : zathura
 Version  : 0.5.1
-Release  : 17
+Release  : 18
 URL      : https://github.com/pwmt/zathura/archive/0.5.1/zathura-0.5.1.tar.gz
 Source0  : https://github.com/pwmt/zathura/archive/0.5.1/zathura-0.5.1.tar.gz
 Summary  : No detailed summary available
