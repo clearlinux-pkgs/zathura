@@ -4,7 +4,7 @@
 #
 Name     : zathura
 Version  : 0.5.2
-Release  : 19
+Release  : 20
 URL      : https://github.com/pwmt/zathura/archive/0.5.2/zathura-0.5.2.tar.gz
 Source0  : https://github.com/pwmt/zathura/archive/0.5.2/zathura-0.5.2.tar.gz
 Summary  : No detailed summary available
