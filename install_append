@@ -1,9 +1,9 @@
-mkdir -p %{buildroot}/{,V3,V4}/usr/bin
-echo -n -e \\x7f\\x45\\x4c\\x46\\xf0 > %{buildroot}/usr/bin/z1-mixer-test-canary-0
-echo -n -e \\x7f\\x45\\x4c\\x46\\xf1 > %{buildroot}/usr/bin/z1-mixer-test-canary-1
-echo -n -e \\x7f\\x45\\x4c\\x46\\xf2 > %{buildroot}/usr/bin/z1-mixer-test-canary-2
-echo -n -e \\x7f\\x45\\x4c\\x46\\xf3 > %{buildroot}/usr/bin/z1-mixer-test-canary-3
-echo -n -e \\x7f\\x45\\x4c\\x46\\xf4 > %{buildroot}/V3/usr/bin/z1-mixer-test-canary-1
-echo -n -e \\x7f\\x45\\x4c\\x46\\xf5 > %{buildroot}/V4/usr/bin/z1-mixer-test-canary-2
-echo -n -e \\x7f\\x45\\x4c\\x46\\xf6 > %{buildroot}/V3/usr/bin/z1-mixer-test-canary-3
-echo -n -e \\x7f\\x45\\x4c\\x46\\xf7 > %{buildroot}/V4/usr/bin/z1-mixer-test-canary-3
+# mkdir -p %{buildroot}/{,V3,V4}/usr/bin
+# echo -n -e \\x7f\\x45\\x4c\\x46\\xf0 > %{buildroot}/usr/bin/z1-mixer-test-canary-0
+# echo -n -e \\x7f\\x45\\x4c\\x46\\xf1 > %{buildroot}/usr/bin/z1-mixer-test-canary-1
+# echo -n -e \\x7f\\x45\\x4c\\x46\\xf2 > %{buildroot}/usr/bin/z1-mixer-test-canary-2
+# echo -n -e \\x7f\\x45\\x4c\\x46\\xf3 > %{buildroot}/usr/bin/z1-mixer-test-canary-3
+# echo -n -e \\x7f\\x45\\x4c\\x46\\xf4 > %{buildroot}/V3/usr/bin/z1-mixer-test-canary-1
+# echo -n -e \\x7f\\x45\\x4c\\x46\\xf5 > %{buildroot}/V4/usr/bin/z1-mixer-test-canary-2
+# echo -n -e \\x7f\\x45\\x4c\\x46\\xf6 > %{buildroot}/V3/usr/bin/z1-mixer-test-canary-3
+# echo -n -e \\x7f\\x45\\x4c\\x46\\xf7 > %{buildroot}/V4/usr/bin/z1-mixer-test-canary-3
