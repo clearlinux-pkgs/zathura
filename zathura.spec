@@ -5,7 +5,7 @@
 #
 Name     : zathura
 Version  : 0.5.2
-Release  : 26
+Release  : 27
 URL      : https://github.com/pwmt/zathura/archive/0.5.2/zathura-0.5.2.tar.gz
 Source0  : https://github.com/pwmt/zathura/archive/0.5.2/zathura-0.5.2.tar.gz
 Summary  : No detailed summary available
@@ -118,7 +118,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1682360423
+export SOURCE_DATE_EPOCH=1682369765
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -151,10 +151,8 @@ echo -n -e \\x7f\\x45\\x4c\\x46\\xf0 > %{buildroot}/usr/bin/aa1-mixer-test-canar
 echo -n -e \\x7f\\x45\\x4c\\x46\\xf1 > %{buildroot}/usr/bin/aa1-mixer-test-canary-1
 echo -n -e \\x7f\\x45\\x4c\\x46\\xf2 > %{buildroot}/usr/bin/aa1-mixer-test-canary-2
 echo -n -e \\x7f\\x45\\x4c\\x46\\xf3 > %{buildroot}/usr/bin/aa1-mixer-test-canary-3
-echo -n -e \\x7f\\x45\\x4c\\x46\\xf4 > %{buildroot}/V3/usr/bin/aa1-mixer-test-canary-1
 echo -n -e \\x7f\\x45\\x4c\\x46\\xf5 > %{buildroot}/V4/usr/bin/aa1-mixer-test-canary-2
 echo -n -e \\x7f\\x45\\x4c\\x46\\xf6 > %{buildroot}/V3/usr/bin/aa1-mixer-test-canary-3
-echo -n -e \\x7f\\x45\\x4c\\x46\\xf7 > %{buildroot}/V4/usr/bin/aa1-mixer-test-canary-3
 ## install_append end
 /usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
@@ -163,10 +161,8 @@ echo -n -e \\x7f\\x45\\x4c\\x46\\xf7 > %{buildroot}/V4/usr/bin/aa1-mixer-test-ca
 
 %files bin
 %defattr(-,root,root,-)
-/V3/usr/bin/aa1-mixer-test-canary-1
 /V3/usr/bin/aa1-mixer-test-canary-3
 /V4/usr/bin/aa1-mixer-test-canary-2
-/V4/usr/bin/aa1-mixer-test-canary-3
 /usr/bin/aa1-mixer-test-canary-0
 /usr/bin/aa1-mixer-test-canary-1
 /usr/bin/aa1-mixer-test-canary-2
