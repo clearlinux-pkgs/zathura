@@ -5,7 +5,7 @@
 #
 Name     : zathura
 Version  : 0.5.2
-Release  : 31
+Release  : 32
 URL      : https://github.com/pwmt/zathura/archive/0.5.2/zathura-0.5.2.tar.gz
 Source0  : https://github.com/pwmt/zathura/archive/0.5.2/zathura-0.5.2.tar.gz
 Summary  : No detailed summary available
@@ -13,7 +13,6 @@ Group    : Development/Tools
 License  : Zlib
 Requires: zathura-bin = %{version}-%{release}
 Requires: zathura-data = %{version}-%{release}
-Requires: zathura-filemap = %{version}-%{release}
 Requires: zathura-license = %{version}-%{release}
 Requires: zathura-locales = %{version}-%{release}
 Requires: zathura-man = %{version}-%{release}
@@ -48,7 +47,6 @@ Summary: bin components for the zathura package.
 Group: Binaries
 Requires: zathura-data = %{version}-%{release}
 Requires: zathura-license = %{version}-%{release}
-Requires: zathura-filemap = %{version}-%{release}
 
 %description bin
 bin components for the zathura package.
@@ -72,14 +70,6 @@ Requires: zathura = %{version}-%{release}
 
 %description dev
 dev components for the zathura package.
-
-
-%package filemap
-Summary: filemap components for the zathura package.
-Group: Default
-
-%description filemap
-filemap components for the zathura package.
 
 
 %package license
@@ -118,7 +108,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1682636582
+export SOURCE_DATE_EPOCH=1682637325
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -152,8 +142,8 @@ DESTDIR=%{buildroot} ninja -C builddir install
 
 %files bin
 %defattr(-,root,root,-)
+/V3/usr/bin/zathura
 /usr/bin/zathura
-/usr/share/clear/optimized-elf/bin*
 
 %files data
 %defattr(-,root,root,-)
@@ -180,10 +170,6 @@ DESTDIR=%{buildroot} ninja -C builddir install
 /usr/include/zathura/types.h
 /usr/include/zathura/zathura-version.h
 /usr/lib64/pkgconfig/zathura.pc
-
-%files filemap
-%defattr(-,root,root,-)
-/usr/share/clear/filemap/filemap-zathura
 
 %files license
 %defattr(0644,root,root,0755)
