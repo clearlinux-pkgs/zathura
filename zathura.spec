@@ -5,7 +5,7 @@
 #
 Name     : zathura
 Version  : 0.5.2
-Release  : 33
+Release  : 34
 URL      : https://github.com/pwmt/zathura/archive/0.5.2/zathura-0.5.2.tar.gz
 Source0  : https://github.com/pwmt/zathura/archive/0.5.2/zathura-0.5.2.tar.gz
 Summary  : No detailed summary available
@@ -108,7 +108,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1683246027
+export SOURCE_DATE_EPOCH=1685477228
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
