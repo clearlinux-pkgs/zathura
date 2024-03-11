@@ -7,3 +7,4 @@ file-dev
 librsvg
 libseccomp-dev
 sqlite-autoconf-dev
+girara-dev
